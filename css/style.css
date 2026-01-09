@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Inter", sans-serif;
+}
+header{
+    padding-top: 50px;
+}
+nav{
+    background-color: #fff;
+    width: 83%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap:25px;
+}
+nav ul li {
+ list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.accessButon button {
+    background: #469165;
+    padding: 10px 11px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 0.7s ease-out;
+}
+
+.accessButon button a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+.accessButon button:hover {
+    background: none;
+    border: 1px solid #469165;
+}
+
+.accessButon button:hover a {
+    color: #469165;
+}
+.section{
+ 
+    background: url('../assets/hero-bg.png');
+    padding-top: 50px;
+}
+.container{
+    width: 83%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section .container h4 {
+    margin: 20px 476px;
+    background: #ffffff;
+    width: 210px;
+    text-align: center;
+    padding: 2px 2px;
+    border-radius: 50px;
+    color: #469165;
+    font-size: 15px;
+}
+.section .container h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 58px;
+    padding-bottom: 20px;
+    font-weight:extra-bold;
+}
+.section .container h1  span{
+    color: #469165;
+}
+.section .container p {
+    text-align: center;
+    padding: 36px 126px;
+    line-height: 27px;
+    color: #fff;
+}
+.header-button{
+    display: flex;
+    gap: 10;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.subBtn{
+    margin: 20px;
+    background: #469165;
+    padding: 10px;
+    border-radius: 5px;
+}
+.subBtn a{
+  text-decoration: none;
+  color: #fff;
+}
+.subBtn:hover{
+  
+    background:none;
+    border: 1px solid #fff;
+}
