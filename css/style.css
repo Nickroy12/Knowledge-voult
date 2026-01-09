@@ -195,3 +195,50 @@ nav ul li a{
 .fa-circle-check{
     color: #469165;
 }
+.section-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F7F6F2;
+    padding: 150px 0;
+}
+.accessSection{
+    margin-bottom: 140px;
+}
+.section-flex h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.section-flex p{
+    text-align: center;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 20px;
+
+}
+.section-flex .ace-pad{
+    padding: 22px;
+}
+footer{
+    background: #001931;
+  
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+      padding: 100px 0;
+}
+.footer-flex h3{
+  color: #fff;
+}
+.footer-flex a{
+    text-decoration: none;
+    color: #F7F6F2;
+    margin-right:10px ;
+}
+.footnote{
+    text-align: center;
+    color: #fff;
+}
