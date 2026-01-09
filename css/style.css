@@ -106,3 +106,58 @@ nav ul li a{
     background:none;
     border: 1px solid #fff;
 }
+.container{
+     width: 83%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.service{
+    padding-top: 50px;
+}
+.header-section{
+    text-align: center;
+}
+.header-section h2{
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 15px;
+}
+.header-section p{
+    color: #627382;
+    padding: 10px;
+}
+.service-box {
+    display: flex;
+    gap: 23px;
+    padding-bottom: 40px;
+}
+.service-card {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 12px 12px 46px #0000002e;
+}
+.icon {
+    background: #F95555;
+    width: 50px;
+    height: 50px;
+    /* padding: 30px; */
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.service-card .content{
+    text-align: center;
+}
+.service-card .content h3{
+  font-size: 24px;
+  font-weight: 700;
+}
+.service-card .content p {
+    color: #627382;
+    padding: 0px;
+    font-size: 15px;
+    line-height: 24px;
+}
